@@ -1,0 +1,37 @@
+*   {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.div {
+    width: 600px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 2px solid blue;
+    color: #fff;
+    background: black;
+    transition: 1s ease;
+}
+.div img{
+    width: 100px;
+    
+}
+.div button{
+    border: #fff;
+    width: 100px;
+    margin-top: 10px;
+    height: 20px;
+    color: blue;
+}
+div:hover {
+    background: #0577F9;
+    width: 500px;
+    height: 500px;
+    color: #310546;
+    border: 5px yellow solid;
+    margin-left: 20%; 
+    transition: 1s ease;
+}
